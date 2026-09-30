@@ -1,0 +1,31 @@
+{
+  "cue_path": "disc/X-Files, The (USA) (Disc 4).cue",
+  "cue_name": "X-Files, The (USA) (Disc 4).cue",
+  "bin_name": "X-Files, The (USA) (Disc 4).bin",
+  "track_count": 1,
+  "data_track_size": 729606864,
+  "data_track_md5": "3724190d308e95b2d244f760b6b292f5",
+  "data_track_sha1": "f672585e5ffb86e9e90b38d837e065ae88a62ef9",
+  "data_track_crc32": "c73abde0",
+  "boot_exe": "SLUS_009.51",
+  "serial": "SLUS-00951",
+  "serial_exe": "SLUS_009.51",
+  "volume_id": "",
+  "display_name": "The X-Files",
+  "load_address": "0x80010000",
+  "entry_pc": "0x80011444",
+  "text_size": "0x00013000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "610e2b0d1d8f63854e60ef3556f8e6871d3a16bb536af7ac08a48a3305acb570",
+  "boot_exe_sha256": "37643415b4e3fd1fa2d70b9a9994a5f082437e2a48c5c38534cd1d50ece3c626",
+  "seed_count": 235,
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

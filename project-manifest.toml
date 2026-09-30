@@ -1,0 +1,27 @@
+[project]
+title = "The X-Files"
+region = "USA"
+track = "recompilation"
+status = "source_prepared_unqualified"
+
+[retail_identity]
+disc_count = 4
+serials = ["SLUS-00915", "SLUS-00949", "SLUS-00950", "SLUS-00951"]
+executable_paths = ["SLUS_009.15", "SLUS_009.49", "SLUS_009.50", "SLUS_009.51"]
+executable_sha256 = "37643415b4e3fd1fa2d70b9a9994a5f082437e2a48c5c38534cd1d50ece3c626"
+load_address = "0x80010000"
+entry_point = "0x80011444"
+
+[bios]
+profile = "SCPH1001"
+sha256 = "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3"
+
+[framework]
+name = "psxrecomp"
+qualification = "pending T168 and shared canaries"
+template_commit = "77fc84d18cd341ba0c0feb68a63f0904f8c467f0"
+
+[release]
+target_version = "v0.4.0"
+private_only = true
+profile_status = "CI training pending"

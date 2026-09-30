@@ -1,0 +1,48 @@
+{
+  "disc_count": 4,
+  "verdict": "data-only",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "X-Files, The (USA) (Disc 1).cue",
+      "cue_path": "disc/X-Files, The (USA) (Disc 1).cue",
+      "serial": "SLUS-00915",
+      "boot_exe": "SLUS_009.15",
+      "entry_pc": "0x80011444",
+      "track_count": 1,
+      "required_disc_fp": "0c4ce89e9b40a7e712dbf842e4cd96d45c2dde885fb06fc629d63448d2c748d1"
+    },
+    {
+      "index": 2,
+      "cue_name": "X-Files, The (USA) (Disc 2).cue",
+      "cue_path": "disc/X-Files, The (USA) (Disc 2).cue",
+      "serial": "SLUS-00949",
+      "boot_exe": "SLUS_009.49",
+      "entry_pc": "0x80011444",
+      "track_count": 1,
+      "required_disc_fp": "de3b7b39fa5186efdc20fa33962dc849a20852e56660f29588373e445bb754e3"
+    },
+    {
+      "index": 3,
+      "cue_name": "X-Files, The (USA) (Disc 3).cue",
+      "cue_path": "disc/X-Files, The (USA) (Disc 3).cue",
+      "serial": "SLUS-00950",
+      "boot_exe": "SLUS_009.50",
+      "entry_pc": "0x80011444",
+      "track_count": 1,
+      "required_disc_fp": "bea4e1a395568d28fe6e65e232257a217a65f090837b636a0da84d4f2727dad7"
+    },
+    {
+      "index": 4,
+      "cue_name": "X-Files, The (USA) (Disc 4).cue",
+      "cue_path": "disc/X-Files, The (USA) (Disc 4).cue",
+      "serial": "SLUS-00951",
+      "boot_exe": "SLUS_009.51",
+      "entry_pc": "0x80011444",
+      "track_count": 1,
+      "required_disc_fp": "610e2b0d1d8f63854e60ef3556f8e6871d3a16bb536af7ac08a48a3305acb570"
+    }
+  ]
+}
