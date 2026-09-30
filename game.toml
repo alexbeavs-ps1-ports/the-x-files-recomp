@@ -4,11 +4,18 @@ name = "The X-Files"
 id = "SLUS-00915"
 players = 1
 exe = "disc/SLUS_009.15"
+disc = "disc/X-Files, The (USA) (Disc 1).cue"
 discs = [
     "disc/X-Files, The (USA) (Disc 1).cue",
     "disc/X-Files, The (USA) (Disc 2).cue",
     "disc/X-Files, The (USA) (Disc 3).cue",
     "disc/X-Files, The (USA) (Disc 4).cue",
+]
+disc_serials = [
+    "SLUS-00915",
+    "SLUS-00949",
+    "SLUS-00950",
+    "SLUS-00951",
 ]
 load_address = "0x80010000"
 entry_pc = "0x80011444"
@@ -20,15 +27,24 @@ out_dir = "disc"
 bin_name = "X-Files, The (USA) (Disc 1).bin"
 cue_name = "X-Files, The (USA) (Disc 1).cue"
 boot_exe = "SLUS_009.15"
-known_sizes = [613401600]
+known_sizes = [613401600, 719229840, 606583152, 729606864]
 known_md5 = [
   "e3a7fc1a9b3a390ad709e75e9f79d786",
+  "e542f4c340b521f07de4a0018044f5ba",
+  "4c99e26f356b85ae8fa2ed95eecfc35f",
+  "3724190d308e95b2d244f760b6b292f5",
 ]
 known_sha1 = [
   "679f0d21aa87a1216cad6f5fc9e8a721a0e4d64b",
+  "2a8bcb5613a912f73c5b6b283bc229c2afa53a1b",
+  "47db5a887cde5a8c36f40283d7e7d4b0dc3b5c38",
+  "f672585e5ffb86e9e90b38d837e065ae88a62ef9",
 ]
 known_crc32 = [
   "2a424254",
+  "59c0fb21",
+  "f3db0598",
+  "c73abde0",
 ]
 
 [recompiler]
