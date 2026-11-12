@@ -1,0 +1,101 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "The X-Files",
+    "id": "SLUS-00915",
+    "boot_exe": "SLUS_009.15"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "X-Files, The (USA) (Disc 1).cue",
+    "bin_name": "X-Files, The (USA) (Disc 1).bin",
+    "track_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 613401600,
+      "md5": "e3a7fc1a9b3a390ad709e75e9f79d786",
+      "sha1": "679f0d21aa87a1216cad6f5fc9e8a721a0e4d64b",
+      "crc32": "2a424254"
+    },
+    "disc_fp": "0c4ce89e9b40a7e712dbf842e4cd96d45c2dde885fb06fc629d63448d2c748d1",
+    "discs": [
+      {
+        "index": 1,
+        "cue_name": "X-Files, The (USA) (Disc 1).cue",
+        "bin_name": "X-Files, The (USA) (Disc 1).bin",
+        "size": 613401600,
+        "md5": "e3a7fc1a9b3a390ad709e75e9f79d786",
+        "sha1": "679f0d21aa87a1216cad6f5fc9e8a721a0e4d64b",
+        "crc32": "2a424254",
+        "track_count": 1,
+        "serial": "SLUS-00915",
+        "disc_fp": "0c4ce89e9b40a7e712dbf842e4cd96d45c2dde885fb06fc629d63448d2c748d1"
+      },
+      {
+        "index": 2,
+        "cue_name": "X-Files, The (USA) (Disc 2).cue",
+        "bin_name": "X-Files, The (USA) (Disc 2).bin",
+        "size": 719229840,
+        "md5": "e542f4c340b521f07de4a0018044f5ba",
+        "sha1": "2a8bcb5613a912f73c5b6b283bc229c2afa53a1b",
+        "crc32": "59c0fb21",
+        "track_count": 1,
+        "serial": "SLUS-00949",
+        "disc_fp": "de3b7b39fa5186efdc20fa33962dc849a20852e56660f29588373e445bb754e3"
+      },
+      {
+        "index": 3,
+        "cue_name": "X-Files, The (USA) (Disc 3).cue",
+        "bin_name": "X-Files, The (USA) (Disc 3).bin",
+        "size": 606583152,
+        "md5": "4c99e26f356b85ae8fa2ed95eecfc35f",
+        "sha1": "47db5a887cde5a8c36f40283d7e7d4b0dc3b5c38",
+        "crc32": "f3db0598",
+        "track_count": 1,
+        "serial": "SLUS-00950",
+        "disc_fp": "bea4e1a395568d28fe6e65e232257a217a65f090837b636a0da84d4f2727dad7"
+      },
+      {
+        "index": 4,
+        "cue_name": "X-Files, The (USA) (Disc 4).cue",
+        "bin_name": "X-Files, The (USA) (Disc 4).bin",
+        "size": 729606864,
+        "md5": "3724190d308e95b2d244f760b6b292f5",
+        "sha1": "f672585e5ffb86e9e90b38d837e065ae88a62ef9",
+        "crc32": "c73abde0",
+        "track_count": 1,
+        "serial": "SLUS-00951",
+        "disc_fp": "610e2b0d1d8f63854e60ef3556f8e6871d3a16bb536af7ac08a48a3305acb570"
+      }
+    ]
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x80011444",
+    "text_size": "0x00013000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 235,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
